@@ -1,0 +1,42 @@
+﻿<Window x:Class="Lesson_1_HW.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lesson_1_HW"
+        mc:Ignorable="d"
+        Title="Hello" Height="450" Width="800" ResizeMode="NoResize">
+    <Grid>
+        <Button Margin="50,100,650,200" Name="button1" FontSize="60" Background="Aqua"  Click="button_Click" MouseRightButtonDown="button1_MouseRightButtonDown">
+            
+            1
+        </Button>
+        <Button Margin="200,100,500,200" Name="button2" FontSize="60" Background="Aquamarine" Click="button_Click" MouseRightButtonDown="button1_MouseRightButtonDown">
+            2
+        </Button>
+        <Button Margin="350,100,350,200" Name="button3" FontSize="60" Background="SeaGreen" Click="button_Click" MouseRightButtonDown="button1_MouseRightButtonDown">
+            3
+        </Button>
+        <Button Margin="500,100,200,200" Name="button4" FontSize="60" Background="DarkSeaGreen" Click="button_Click" MouseRightButtonDown="button1_MouseRightButtonDown">
+            4
+        </Button>
+        <Button Margin="650,100,50,200" Name="button5" FontSize="60" Background="DarkOrange" Click="button_Click" MouseRightButtonDown="button1_MouseRightButtonDown">
+            5
+        </Button>
+        <Button Margin="50,250,650,50" Name="button6" FontSize="60" Background="BlueViolet" Click="button_Click" MouseRightButtonDown="button1_MouseRightButtonDown">
+            6
+        </Button>
+        <Button Margin="200,250,500,50" Name="button7" FontSize="60" Background="BurlyWood"  Click="button_Click" MouseRightButtonDown="button1_MouseRightButtonDown">
+            7
+        </Button>
+        <Button Margin="350,250,350,50" Name="button8" FontSize="60" Background="Chartreuse"  Click="button_Click" MouseRightButtonDown="button1_MouseRightButtonDown">
+            8
+        </Button>
+        <Button Margin="500,250,200,50" Name="button9" FontSize="60" Background="Coral"  Click="button_Click" MouseRightButtonDown="button1_MouseRightButtonDown">
+            9
+        </Button>
+        <Button Margin="650,250,50,50" Name="button10" FontSize="60" Background="DarkKhaki"  Click="button_Click" MouseRightButtonDown="button1_MouseRightButtonDown">
+            10
+        </Button>
+    </Grid>
+</Window>
